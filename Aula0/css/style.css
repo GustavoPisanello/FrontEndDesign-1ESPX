@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    list-style: none;
+}
+
+.but{
+    padding: 1.5vh;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color:aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.but:hover{
+    background-color: greenyellow;
+    transition: all 0.4s;
+    box-shadow: 10px 10px;
+}
