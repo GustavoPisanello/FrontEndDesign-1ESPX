@@ -1,0 +1,15 @@
+h1{
+    font-family: "diferentao";
+}
+
+div{
+    background-color: #530000;
+}
+
+.medida-pixel{
+    width: 1200px;
+}
+
+.medida-porcentagem{
+    width:50%;
+}
