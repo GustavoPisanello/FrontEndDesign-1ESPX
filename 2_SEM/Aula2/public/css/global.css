@@ -13,4 +13,7 @@ body{
     --vermelho-airbnb: #ff385c;
     --cinza-user: #6a6a6a;
     --cinza-menu: #f0f0f0;
+
+    --margem-responsivo-1280: 86%;
+    --margem-responsivo-1800: 60%;
 }

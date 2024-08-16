@@ -68,6 +68,7 @@ main{
 
 .grid-photos img{
     width: 100%;
+    max-width: 1120px;
     height: 100%;
     object-fit: cover;
 	cursor: pointer;
@@ -100,4 +101,16 @@ main{
 }
 .img5 img{
     border-radius: 0 0 15px 0;
+}
+
+@media  screen and (min-width: 1800px){
+    .container{
+        width: var(--margem-responsivo-1800);
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .container{
+        width: var(--margem-responsivo-1280); 
+    }
 }
