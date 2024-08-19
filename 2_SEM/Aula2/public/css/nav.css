@@ -40,6 +40,12 @@
     border: #DDDDDD 1px solid;
     border-radius: 30px;
     padding: 8px 15px;
+    box-shadow: 1px 1px 2px 1px #DDDDDD; 
+    transition: all 0.3s;
+}
+
+.search-bar:hover{
+    box-shadow: 1px 2.5px 2px 1px #DDDDDD;
 }
 
 .search-bar svg{
@@ -53,7 +59,8 @@
     background-color: transparent;
     font-size: 0.9rem;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: bolder;
+    font-family: AirbnbFont_Lt;    
     padding: 0 10px;
     font-weight: bold;
     padding: 4px 12px;
@@ -74,13 +81,12 @@
 .search-bar-link:nth-child(3){
     border: none;
     border-radius: 0 20px 20px 0;
-    font-weight: lighter;
+    color:#6A6A6A !important;
 }
 
 .user-preferences{
     display: flex;
     align-items: center;
-    gap: 30px;
     margin-left: 20px;
 }
 
@@ -93,6 +99,7 @@
     align-items: center;
     gap: 10px;
     padding: 8px 12px;
+    margin-left: 10px;
 }
 
 .user-settings :nth-child(2){
@@ -101,7 +108,7 @@
 }
 
 .announcement{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     height: fit-content;
     background-color: transparent;
     border: transparent;
@@ -109,6 +116,7 @@
     padding: 14px;
     font-weight: bold;
     border-radius: 20px;
+    font-family: AirbnbFont_Lt;
 }
 
 .announcement:hover{

@@ -1,6 +1,6 @@
 @import url("../../../public/css/global.css");
 @import url("../../../public/css/nav.css");
-
+@import url("../../../public/css/room-info.css");
 
 *{
     margin: 0;
@@ -13,7 +13,6 @@ main{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    font-family: AirbnbFont;
 }
 
 .title{
@@ -22,7 +21,8 @@ main{
 }
 
 .container{
-    width: 76%;   
+    width: 76%; 
+    font-family: AirbnbFont;  
 }
 
 .box-header{
@@ -58,6 +58,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     margin-top: 20px;
     gap: 7px;
+    margin-bottom: 30px;
 }
 
 .grid-photos div{

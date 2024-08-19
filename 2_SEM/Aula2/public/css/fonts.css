@@ -2,3 +2,8 @@
     font-family: AirbnbFont;
     src: url("../assets/fonts/AirbnbCereal-fontiko/AirbnbCereal_W_Bk.otf");
 }
+
+@font-face {
+    font-family: AirbnbFont_Lt;
+    src: url("../assets/fonts/AirbnbCereal-fontiko/AirbnbCereal_W_Lt.otf");
+}
