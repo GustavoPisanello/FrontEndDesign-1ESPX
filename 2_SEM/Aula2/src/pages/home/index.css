@@ -21,7 +21,7 @@ main{
 }
 
 .container{
-    width: 76%; 
+    width: 75%; 
     font-family: AirbnbFont;  
 }
 
@@ -55,7 +55,7 @@ main{
 .grid-photos{
     display: grid;
     grid-template-rows: 280px 280px;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: repeat(4, 1fr); 
     margin-top: 20px;
     gap: 7px;
     margin-bottom: 30px;
