@@ -9,10 +9,14 @@ body{
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    visibility: hidden;
+}
 :root{
     --vermelho-airbnb: #ff385c;
     --cinza-user: #6a6a6a;
     --cinza-menu: #f0f0f0;
+    --cinza-ddd: #dddddd;
 
     --margem-responsivo-1280: 86%;
     --margem-responsivo-1800: 60%;

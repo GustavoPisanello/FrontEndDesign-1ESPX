@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 10px solid #83456f;
+    height: 600px;
+
+    display: grid;
+    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.item{
+    padding: 10px;
+    background-color: #a45a8d;
+    color: white;
+    border: 10px solid #3d1a32;
+}

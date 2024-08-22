@@ -37,15 +37,15 @@
     display: flex;
     align-items: center;
     background-color: transparent;
-    border: #DDDDDD 1px solid;
+    border: var(--cinza-ddd) 1px solid;
     border-radius: 30px;
     padding: 8px 15px;
-    box-shadow: 1px 1px 2px 1px #DDDDDD; 
+    box-shadow: 1px 1px 2px 1px var(--cinza-ddd); 
     transition: all 0.3s;
 }
 
 .search-bar:hover{
-    box-shadow: 1px 2.5px 2px 1px #DDDDDD;
+    box-shadow: 1px 2.5px 2px 1px var(--cinza-ddd);
 }
 
 .search-bar svg{

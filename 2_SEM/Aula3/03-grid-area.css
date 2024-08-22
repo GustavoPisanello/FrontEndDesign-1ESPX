@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 10px solid #83456f;
+
+    display: grid;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 3fr 1fr;
+
+    grid-template-areas: 
+        'header header'
+        'main aside'
+        'footer footer';
+}
+
+.item{
+    padding: 10px;
+    background-color: #a45a8d;
+    color: white;
+    border: 10px solid #3d1a32;
+}
+
+.item-1{
+    grid-area: header;
+}
+
+.item-2{
+    grid-area: main;
+}
+
+.item-3{
+    grid-area: aside;
+}
+
+.item-4{
+    grid-area: footer;
+}
