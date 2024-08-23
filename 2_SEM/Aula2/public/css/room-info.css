@@ -183,9 +183,44 @@
 
 .room-description{
     width: 87%;
+    border-bottom: var(--cinza-ddd) solid 1px;
+    padding-bottom: 48px;
 }
 
 .paragraph{
     line-height: 1.6rem;
     padding-top: 30px;
+}
+
+.host-description{
+    padding-top: 48px;
+    width: 51%;
+    height: 150px;
+    border: var(--cinza-ddd) 1px solid;
+    box-shadow: 0 0 10px var(--cinza-ddd); 
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+.host-image2{
+    width:100%;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.host-image-box2{
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.receive-text{
+    padding: 42px 0 24px 0;
 }
