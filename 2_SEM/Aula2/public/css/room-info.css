@@ -224,3 +224,58 @@
 .receive-text{
     padding: 42px 0 24px 0;
 }
+
+.host-data{
+    width: 87%;
+    border-bottom: var(--cinza-ddd) solid 1px;
+    padding-bottom: 24px;
+}
+
+.host-fun-facts{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.fun-fact{
+    display: flex;
+    gap: 10px;
+}
+
+.fun-fact-text{
+    max-width: 380px;
+}
+
+.paragraph2{
+    line-height: 1.6rem;
+    padding-top: 12px;
+}
+
+.bedroom-info{
+    padding: 48px 0;
+    border-bottom: var(--cinza-ddd) solid 1px;
+}
+
+.bedroom-info h2{
+    font-size: 22px;
+}
+.bedroom-image{
+    width: 43%;
+}
+
+.bedroom-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bedroom-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.bedroom-text p{
+    font-weight: 100;
+}
