@@ -129,6 +129,12 @@
     }
 }
 
+@media screen and (max-width: 1400px){
+    .nav-box{
+        width: var(--margem-responsivo-1400);  
+    }
+}
+
 @media screen and (max-width: 1280px){
     .nav-box{
         width: var(--margem-responsivo-1280);
