@@ -2,6 +2,7 @@
 @import url("../../../public/css/nav.css");
 @import url("../../../public/css/room-info.css");
 @import url("../../../public/css/maps.css");
+@import url("../../../public/css/iconic.css");
 
 *{
     margin: 0;
@@ -23,6 +24,8 @@ main{
 .container{
     width: 75%; 
     font-family: AirbnbFont;  
+    max-width: 1120px;
+    color: var(--font-color)
 }
 
 .box-header{
@@ -105,20 +108,16 @@ main{
     border-radius: 0 0 15px 0;
 }
 
-@media  screen and (min-width: 1800px){
+@media screen and (min-width: 1550px){
     .container{
         width: var(--margem-responsivo-1800);
     }
 }
 
-@media  screen and (min-width: 1800px){
-    .container{
-        width: var(--margem-responsivo-1400);
-    }
-}
-
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1550px){
     .container{
         width: var(--margem-responsivo-1280); 
     }
 }
+
+/* Next responvivity is aproaching to 1100px */

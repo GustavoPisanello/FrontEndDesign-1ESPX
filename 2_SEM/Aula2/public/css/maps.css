@@ -6,18 +6,29 @@ section{
 }
 
 .maps-title{
-    padding-top: 48px;
+    padding-top: 24px;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: var(--cinza-ddd) solid 1px;
 }
 
 .maps-title h2{
     font-size: 21px;
 }
 
+.maps-title p a {
+    color: black;
+    font-weight: bold;
+}
+
 .map{
     width: 100%;
     height: 480px;
+}
+
+.highlights{
+    padding: 48px 0 !important;
+    margin-bottom: 24px ;
 }

@@ -1,0 +1,29 @@
+.iconic-img-box{
+    width: 651px;
+}
+
+.iconic-img{
+    width: 100%;
+}
+
+.adjust-center{
+    display: flex;
+    justify-content: center;
+}
+
+.iconic-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.iconic-text h1{
+    font-size: 6rem;
+}
+
+.iconic-text p{
+    font-size: 1.3rem;
+    text-align: center;
+}
