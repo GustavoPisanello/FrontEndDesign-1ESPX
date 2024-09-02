@@ -4,6 +4,7 @@
     padding: 48px 0;
     row-gap: 20px;
     column-gap: 20px;
+    border-bottom: var(--cinza-ddd) solid 1px;
 }
 
 .booking-item{
@@ -20,6 +21,64 @@
 .booking-requirement-text p{
     color: #6A6A6A;
     font-size: 1rem;
+}
+
+.little{
+    display: flex;
+    justify-content: flex-start;
+    width: 66%;
+    padding: 32px 0;
+}
+
+.little p{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #6A6A6A;
+}
+
+.little p a{
+    text-decoration: underline;
+    color: #6A6A6A;
+}
+
+.schedule-rules{
+    border-top: var(--cinza-ddd) solid 1px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 48px 0;
+}
+
+.schedule-rules h3{
+    font-size: 1.3rem;
+}
+
+.rule-box-box{
+    display: flex;
+    gap: 200px;
+}
+
+.rule-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.rule-box a{
+    color: var(--font-color);
+    font-weight: bold;
+}
+
+.rules{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.rule-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 @media screen and (max-width: 750px) {

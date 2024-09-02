@@ -1,0 +1,72 @@
+footer {
+    width: 100vw;
+    background-color: #f7f7f7;
+    font-family: AirbnbFont;
+    border-top: var(--cinza-ddd) solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.path-box{
+    display: flex;
+    width: 100%;
+    border-bottom: var(--cinza-ddd) solid 1px;
+    justify-content: center;
+}
+
+.path {
+    display: flex;
+    max-width: 1120px;
+    padding: 32px 0;
+    color: black;
+    width: 75%;
+}
+
+.path p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+}
+
+.path p svg {
+    margin-right: 8px;
+}
+
+.recommendations{
+    width: 100%;
+    padding: 32px 0;
+}
+
+.recommendations h3{
+    padding-bottom: 32px;
+    font-size: 1.4rem;
+}
+
+.another-options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-box-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 156px;
+    width: 33%;
+    flex-wrap: wrap;
+}
+
+.option-box{
+    line-height: 1.25rem;
+}
+
+.option-box h4{
+    font-size: 0.9rem;
+}
+
+.option-box p{
+    font-size: 0.89rem;
+    color: #6A6A6A;
+}
