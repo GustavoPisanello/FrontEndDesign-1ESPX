@@ -36,7 +36,7 @@ footer {
 
 .recommendations{
     width: 100%;
-    padding: 32px 0;
+    padding: 32px 0 48px 0;
 }
 
 .recommendations h3{
@@ -69,4 +69,85 @@ footer {
 .option-box p{
     font-size: 0.89rem;
     color: #6A6A6A;
+}
+
+.footer{
+    display: flex;
+    width: 89%;
+    justify-content: space-between;
+    border-bottom: var(--cinza-ddd) solid 1px;
+}
+
+.footer-links{
+    width: 33%;
+    padding: 48px 0;
+}
+
+.footer-links ul{
+    display: grid;
+    gap: 15px;
+}
+
+.footer-links ul li{
+    list-style: none;
+    font-size: 0.875rem;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: var(--font-color)
+}
+
+.footer-links ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer h4{
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+}
+
+.footer-last-info{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+}
+
+.footer-st-info{
+    display: flex;
+    padding: 24px 0;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-st-info{
+    font-size: 0.89rem;
+}
+
+.footer-nd-info{
+    display: flex;
+    font-size: 0.89rem;
+    font-weight: bold;
+    align-items: center;
+    gap: 20px;
+    color: var(--font-color);
+}
+
+.footer-language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.currency{
+    display: flex;
+}
+
+.social-medias{
+    display: flex;
+    gap: 15px;
+}
+
+.social-medias svg{
+    color:  var(--font-color);
 }
