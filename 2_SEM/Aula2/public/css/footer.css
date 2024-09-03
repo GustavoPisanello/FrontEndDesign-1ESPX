@@ -71,11 +71,8 @@ footer {
     color: #6A6A6A;
 }
 
-.footer{
+.dois{
     display: flex;
-    width: 89%;
-    justify-content: space-between;
-    border-bottom: var(--cinza-ddd) solid 1px;
 }
 
 .footer-links{
@@ -107,16 +104,14 @@ footer {
     margin-bottom: 12px;
 }
 
-.footer-last-info{
+.dois{
     display: flex;
     justify-content: space-between;
-    width: 89%;
 }
 
 .footer-st-info{
     display: flex;
     padding: 24px 0;
-    justify-content: space-between;
     gap: 10px;
 }
 
