@@ -5,6 +5,7 @@
 @import url("../../../public/css/iconic.css");
 @import url("../../../public/css/booking.css");
 @import url("../../../public/css/footer.css");
+@import url("../../../public/css/carousel.css");
 
 *{
     margin: 0;
@@ -64,6 +65,7 @@ main{
     margin-top: 20px;
     gap: 7px;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .grid-photos div{
@@ -82,6 +84,25 @@ main{
 
 .grid-photos img:hover{
 	opacity: 90%;
+}
+
+.show-more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    position:absolute;
+    bottom: 25px;
+    right: 25px;
+    padding: 7px 15px;
+    border-radius: 8px;
+    border: solid black 1px;
+    background-color: white;
+    font-family: AirbnbFont;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: var(--font-color);
+    font-weight: bold;
 }
 
 .img1{
@@ -119,6 +140,24 @@ main{
 @media screen and (max-width: 1550px){
     .container{
         width: var(--margem-responsivo-1280); 
+    }
+}
+
+@media screen and (max-width: 860px){
+    .nav{
+        display:none;
+    }
+
+    .grid-photos{
+        display: none;
+    }
+
+    .booking-info{
+        display: none;
+    }
+
+    .links{
+        display: none;
     }
 }
 

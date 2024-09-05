@@ -56,6 +56,14 @@
     border-radius: 100%;
 }
 
+.search-bar-full-link{
+    display: block;
+}
+
+.search-bar-min-link{
+    display: none;
+}
+
 .search-bar-link{
     background-color: transparent;
     font-size: 0.9rem;
@@ -137,5 +145,33 @@
 
     .user-preferences{
         gap: 5px;
+    }
+}
+
+@media screen and (max-width: 1075px){
+    .logo-box svg path:nth-child(2){
+        display: none;
+    }
+
+    .logo-box svg{
+        width: 30px;
+    }
+
+    .search-bar{
+        padding: 0 24px;
+    }
+
+    .search-bar svg{
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .search-bar-full-link{
+        display: none;
+    }
+
+    .search-bar-min-link{
+        display: block;
     }
 }
