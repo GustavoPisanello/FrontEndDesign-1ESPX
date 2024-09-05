@@ -67,6 +67,9 @@
 .rule-box a{
     color: var(--font-color);
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap:10px;
 }
 
 .rules{
@@ -79,6 +82,10 @@
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.rule-link::before{
+    content: 'Mostrar mais';
 }
 
 @media screen and (max-width: 750px) {
@@ -100,5 +107,40 @@
         width: 22px !important;
         height: 22px !important;
     }
+}
 
+@media screen and (max-width: 650px){
+    .schedule-rules{
+        padding: 0;
+    }
+    
+    .schedule-rules h3{
+        display: none;
+    }
+
+    .rule-box-box{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .rule-box{
+        padding: 24px 0;
+    }
+
+    .rule-box p{
+        color: #6A6A6A;
+        font-size: 0.875rem;
+    }
+
+    .rule-box:first-child{
+        border-bottom: var(--cinza-ddd) solid 1px;
+    }
+
+    .rule-link::before{
+        content: 'Ver mais';
+    }
+
+    .rules h4{
+        font-size: 1.2rem;
+    }
 }
