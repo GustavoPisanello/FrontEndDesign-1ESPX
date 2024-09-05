@@ -32,3 +32,9 @@
     border-bottom: var(--cinza-ddd) solid 1px;
     padding-bottom: 50px;
 }
+
+@media screen and (max-width: 860px) {
+    .iconic-text h1{
+        font-size: 4rem;
+    }
+}

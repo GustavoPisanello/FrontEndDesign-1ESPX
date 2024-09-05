@@ -296,4 +296,12 @@
     .title-info{
         font-size: 0.6rem;
     }
+
+    .host-description{
+        width: 100%;
+    }
+
+    .host-data{
+        width: 100%;
+    }
 }

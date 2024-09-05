@@ -46,9 +46,9 @@ footer {
 }
 
 .another-options{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .option-box-box{
@@ -181,5 +181,13 @@ footer {
 
     .footer-st-info{
         flex-direction: column;
+    }
+
+    .recommendations h3{
+        font-size: 1.45rem;
+    }
+
+    .another-options{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
