@@ -1,0 +1,54 @@
+@font-face {
+    font-family: GohuFont;
+    src: url("../fonts/GohuFont11NerdFont-Regular.ttf");
+}
+
+main {
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chat-log {
+    width: 90%;
+    background-color: #eaeaea;
+    padding: 5vh;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+img{
+    width: 200px;
+    margin-top: 50px;
+    border: black solid 1px;
+}
+
+.message {
+    display: block;
+    font-family: GohuFOnt;
+}
+
+.message--sent {
+    text-align: right;
+    color: rgb(172, 29, 77);
+}
+
+.message--sent::before {
+    content: "Usuário";
+    font-size: 12px;
+}
+
+.message--assistant {
+    text-align: left;
+    margin: 20px 0;
+    color: rgb(37, 7, 71)
+}
+
+.message--assistant::before {
+    content: "Chatinho";
+    font-size: 12px;
+}
