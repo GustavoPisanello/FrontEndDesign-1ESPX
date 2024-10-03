@@ -5,16 +5,25 @@
 
 main {
     height: 100vh;
+    width: 70%;
 }
 
-.container{
+.form-request{
+    position: fixed;
+    bottom: 20px;
+    width: 25%;
+
+}
+.container2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    margin: 0;
 }
 
 #chat-log {
-    width: 90%;
+    width: 70%;
     background-color: #eaeaea;
     padding: 5vh;
     margin: 20px auto;
@@ -25,6 +34,16 @@ img{
     width: 200px;
     margin-top: 50px;
     border: black solid 1px;
+    position: absolute;
+    left: 10px;
+}
+
+.visivel{
+    display: block;
+}
+
+.invisivel{
+    display: none;
 }
 
 .message {

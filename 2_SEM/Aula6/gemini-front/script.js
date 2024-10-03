@@ -1,5 +1,13 @@
 let inputMessage = document.getElementById('message');
 
+let gemi = document.querySelector(".gemi");
+console.log(gemi)
+
+if (inputMessage.value == "Gemi"){
+    gemi.classList.add("visivel")
+    gemi.classList.remove("invisivel")
+}
+
 let chatLog = document.getElementById('chat-log');
 
 let messages = [];
@@ -16,7 +24,7 @@ form.addEventListener('submit', (event) => {
         'parts': [{text: messageText}]
     };
 
-    messages.push(newMessageChatbot);
+    messages.unshift(newMessageChatbot);
 
     inputMessage.value = '';
 
@@ -37,5 +45,15 @@ form.addEventListener('submit', (event) => {
         body: JSON.stringify({
             messages
         })
-    }).then(res => res.json());
+    }).then(res => res.json())
+    .then(data => {
+        console.log(data.chat_completion);
+
+        let messageResponse = document.createElement('div');
+        messageResponse.classList.add('message');
+        messageResponse.classList.add('message--assistant');
+        messageResponse.innerHTML = `<div class='message__text'>${data.chat_completion}</div>`;
+
+        chatLog.appendChild(messageResponse)
+    });
 });
